@@ -10,7 +10,7 @@ app.use(express.json());        //string-> json
 //any third part application can be served, if the cors is enabled
 app.use(cors());
 
-const client = new MongoClient('mongodb+srv://admin1:admin1@cluster0.crdqzyr.mongodb.net/?retryWrites=true&w=majority');
+const client = new MongoClient('');
 client.connect();
 //outer circle is cluster
 //inside circle is database
